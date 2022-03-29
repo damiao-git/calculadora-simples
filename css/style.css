@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00764E;
+}
+input{
+    border-radius: 22%;
+    color: azure;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+}
+input:hover {
+    background-color: #393939;
+    cursor: pointer;
+}
+.num, .add, .mul, .sub, .div, .eql, .dot, .btn{
+    width: 64px;
+    height: 67px;
+}
+
+.text{
+    width: 199px;
+}
+.text1{
+    width: 70px;
+    border-radius: 50%;
+}
+.main{
+    display: inline-block;
+}
+.maincolor{
+    background-color: black;
+}
+.add {
+    background-color: darkorange;
+}
+
+.sub {
+    background-color: darkgreen;
+}
+
+.mul {
+    background-color: darkorchid;
+}
+
+.div {
+    background-color: darkblue;
+}
+
+.eql {
+    background-color: red;
+}
